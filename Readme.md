@@ -49,3 +49,7 @@ If happy, connect to the netduino with the "Connect" button.
 The "Offline" label should become "Online". 
 
 Now click "Begin" to start machining. Note that clicking "Cancel" may not stop inmediately and may complete the current Gcode line.
+
+## License
+
+This code is licensed under the MIT license.
