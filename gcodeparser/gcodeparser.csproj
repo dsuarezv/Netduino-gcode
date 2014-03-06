@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B785BCFA-55DA-46E7-A42E-9F1C7E0C462C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>gcodeparser</RootNamespace>
+    <AssemblyName>gcodeparser</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DESKTOP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Netduino Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Netduino Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SPOT.Hardware">
+      <HintPath>..\..\..\DotNet MicroFramework 4.1\v4.1\Assemblies\le\Microsoft.SPOT.Hardware.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SPOT.Native">
+      <HintPath>..\..\..\DotNet MicroFramework 4.1\v4.1\Assemblies\le\Microsoft.SPOT.Native.dll</HintPath>
+    </Reference>
+    <Reference Include="SecretLabs.NETMF.Hardware">
+      <HintPath>..\..\..\Netduino SDK\Assemblies\v4.1\SecretLabs.NETMF.Hardware.dll</HintPath>
+    </Reference>
+    <Reference Include="SecretLabs.NETMF.Hardware.Netduino">
+      <HintPath>..\..\..\Netduino SDK\Assemblies\v4.1\SecretLabs.NETMF.Hardware.Netduino.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArcInterpolation.cs" />
+    <Compile Include="Hal\Device.cs" />
+    <Compile Include="Hal\DeviceFactory.cs" />
+    <Compile Include="Hal\Math2.cs" />
+    <Compile Include="Machine.cs" />
+    <Compile Include="Parser\BaseCommand.cs" />
+    <Compile Include="Parser\CommandAxis.cs" />
+    <Compile Include="Parser\CommandF.cs" />
+    <Compile Include="Parser\CommandG.cs" />
+    <Compile Include="Parser\CommandM.cs" />
+    <Compile Include="Parser\CommandS.cs" />
+    <Compile Include="Parser\CommandT.cs" />
+    <Compile Include="Parser\CommandD.cs" />
+    <Compile Include="Parser\GcodeParser.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="Parser\ManualModeParser.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

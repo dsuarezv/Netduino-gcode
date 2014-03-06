@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="gcodeparser.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ProgressColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">192, 117, 0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

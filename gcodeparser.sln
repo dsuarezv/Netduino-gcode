@@ -1,0 +1,126 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gcodeviewer", "gcodeviewer\gcodeviewer.csproj", "{CFF04955-6965-4761-B3D6-993628CCF798}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gcodeparser", "gcodeparser\gcodeparser.csproj", "{B785BCFA-55DA-46E7-A42E-9F1C7E0C462C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gcodeparser-netduino", "gcodeparser\gcodeparser-netduino.csproj", "{01CE635C-A706-46FB-8546-445AB8E41A25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetduinoDevice2", "StepperBasic\NetduinoDevice2.csproj", "{EE6E7484-C585-4119-80B7-4D0903F26F37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AGAControls", "AGAControls\AGAControls.csproj", "{84FB7230-56B8-4889-9933-713688E698B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Druid3dViewer", "3d viewer\Druid3dViewer.csproj", "{C2A9AB38-24A8-4555-BAF1-E9ECDA54379A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Netduino Debug|Any CPU = Netduino Debug|Any CPU
+		Netduino Debug|Mixed Platforms = Netduino Debug|Mixed Platforms
+		Netduino Debug|x86 = Netduino Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFF04955-6965-4761-B3D6-993628CCF798}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{CFF04955-6965-4761-B3D6-993628CCF798}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{CFF04955-6965-4761-B3D6-993628CCF798}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{CFF04955-6965-4761-B3D6-993628CCF798}.Debug|x86.ActiveCfg = Debug|x86
+		{CFF04955-6965-4761-B3D6-993628CCF798}.Debug|x86.Build.0 = Debug|x86
+		{CFF04955-6965-4761-B3D6-993628CCF798}.Netduino Debug|Any CPU.ActiveCfg = Netduino Debug|x86
+		{CFF04955-6965-4761-B3D6-993628CCF798}.Netduino Debug|Mixed Platforms.ActiveCfg = Netduino Debug|x86
+		{CFF04955-6965-4761-B3D6-993628CCF798}.Netduino Debug|x86.ActiveCfg = Netduino Debug|x86
+		{CFF04955-6965-4761-B3D6-993628CCF798}.Netduino Debug|x86.Build.0 = Netduino Debug|x86
+		{CFF04955-6965-4761-B3D6-993628CCF798}.Release|Any CPU.ActiveCfg = Release|x86
+		{CFF04955-6965-4761-B3D6-993628CCF798}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{CFF04955-6965-4761-B3D6-993628CCF798}.Release|Mixed Platforms.Build.0 = Release|x86
+		{CFF04955-6965-4761-B3D6-993628CCF798}.Release|x86.ActiveCfg = Release|x86
+		{CFF04955-6965-4761-B3D6-993628CCF798}.Release|x86.Build.0 = Release|x86
+		{B785BCFA-55DA-46E7-A42E-9F1C7E0C462C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B785BCFA-55DA-46E7-A42E-9F1C7E0C462C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B785BCFA-55DA-46E7-A42E-9F1C7E0C462C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B785BCFA-55DA-46E7-A42E-9F1C7E0C462C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B785BCFA-55DA-46E7-A42E-9F1C7E0C462C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B785BCFA-55DA-46E7-A42E-9F1C7E0C462C}.Netduino Debug|Any CPU.ActiveCfg = Netduino Debug|Any CPU
+		{B785BCFA-55DA-46E7-A42E-9F1C7E0C462C}.Netduino Debug|Any CPU.Build.0 = Netduino Debug|Any CPU
+		{B785BCFA-55DA-46E7-A42E-9F1C7E0C462C}.Netduino Debug|Mixed Platforms.ActiveCfg = Netduino Debug|Any CPU
+		{B785BCFA-55DA-46E7-A42E-9F1C7E0C462C}.Netduino Debug|x86.ActiveCfg = Netduino Debug|Any CPU
+		{B785BCFA-55DA-46E7-A42E-9F1C7E0C462C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B785BCFA-55DA-46E7-A42E-9F1C7E0C462C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B785BCFA-55DA-46E7-A42E-9F1C7E0C462C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B785BCFA-55DA-46E7-A42E-9F1C7E0C462C}.Release|x86.ActiveCfg = Release|Any CPU
+		{01CE635C-A706-46FB-8546-445AB8E41A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CE635C-A706-46FB-8546-445AB8E41A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CE635C-A706-46FB-8546-445AB8E41A25}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{01CE635C-A706-46FB-8546-445AB8E41A25}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{01CE635C-A706-46FB-8546-445AB8E41A25}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{01CE635C-A706-46FB-8546-445AB8E41A25}.Netduino Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CE635C-A706-46FB-8546-445AB8E41A25}.Netduino Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CE635C-A706-46FB-8546-445AB8E41A25}.Netduino Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{01CE635C-A706-46FB-8546-445AB8E41A25}.Netduino Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{01CE635C-A706-46FB-8546-445AB8E41A25}.Netduino Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{01CE635C-A706-46FB-8546-445AB8E41A25}.Netduino Debug|Mixed Platforms.Deploy.0 = Debug|Any CPU
+		{01CE635C-A706-46FB-8546-445AB8E41A25}.Netduino Debug|x86.ActiveCfg = Debug|Any CPU
+		{01CE635C-A706-46FB-8546-445AB8E41A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CE635C-A706-46FB-8546-445AB8E41A25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01CE635C-A706-46FB-8546-445AB8E41A25}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{01CE635C-A706-46FB-8546-445AB8E41A25}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{01CE635C-A706-46FB-8546-445AB8E41A25}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{01CE635C-A706-46FB-8546-445AB8E41A25}.Release|Mixed Platforms.Deploy.0 = Release|Any CPU
+		{01CE635C-A706-46FB-8546-445AB8E41A25}.Release|x86.ActiveCfg = Release|Any CPU
+		{EE6E7484-C585-4119-80B7-4D0903F26F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE6E7484-C585-4119-80B7-4D0903F26F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE6E7484-C585-4119-80B7-4D0903F26F37}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EE6E7484-C585-4119-80B7-4D0903F26F37}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EE6E7484-C585-4119-80B7-4D0903F26F37}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EE6E7484-C585-4119-80B7-4D0903F26F37}.Netduino Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE6E7484-C585-4119-80B7-4D0903F26F37}.Netduino Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE6E7484-C585-4119-80B7-4D0903F26F37}.Netduino Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EE6E7484-C585-4119-80B7-4D0903F26F37}.Netduino Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EE6E7484-C585-4119-80B7-4D0903F26F37}.Netduino Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EE6E7484-C585-4119-80B7-4D0903F26F37}.Netduino Debug|Mixed Platforms.Deploy.0 = Debug|Any CPU
+		{EE6E7484-C585-4119-80B7-4D0903F26F37}.Netduino Debug|x86.ActiveCfg = Debug|Any CPU
+		{EE6E7484-C585-4119-80B7-4D0903F26F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE6E7484-C585-4119-80B7-4D0903F26F37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE6E7484-C585-4119-80B7-4D0903F26F37}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EE6E7484-C585-4119-80B7-4D0903F26F37}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EE6E7484-C585-4119-80B7-4D0903F26F37}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{EE6E7484-C585-4119-80B7-4D0903F26F37}.Release|Mixed Platforms.Deploy.0 = Release|Any CPU
+		{EE6E7484-C585-4119-80B7-4D0903F26F37}.Release|x86.ActiveCfg = Release|Any CPU
+		{84FB7230-56B8-4889-9933-713688E698B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84FB7230-56B8-4889-9933-713688E698B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84FB7230-56B8-4889-9933-713688E698B3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{84FB7230-56B8-4889-9933-713688E698B3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{84FB7230-56B8-4889-9933-713688E698B3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{84FB7230-56B8-4889-9933-713688E698B3}.Netduino Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84FB7230-56B8-4889-9933-713688E698B3}.Netduino Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84FB7230-56B8-4889-9933-713688E698B3}.Netduino Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{84FB7230-56B8-4889-9933-713688E698B3}.Netduino Debug|x86.ActiveCfg = Debug|Any CPU
+		{84FB7230-56B8-4889-9933-713688E698B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84FB7230-56B8-4889-9933-713688E698B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84FB7230-56B8-4889-9933-713688E698B3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{84FB7230-56B8-4889-9933-713688E698B3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{84FB7230-56B8-4889-9933-713688E698B3}.Release|x86.ActiveCfg = Release|Any CPU
+		{C2A9AB38-24A8-4555-BAF1-E9ECDA54379A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A9AB38-24A8-4555-BAF1-E9ECDA54379A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A9AB38-24A8-4555-BAF1-E9ECDA54379A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C2A9AB38-24A8-4555-BAF1-E9ECDA54379A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C2A9AB38-24A8-4555-BAF1-E9ECDA54379A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C2A9AB38-24A8-4555-BAF1-E9ECDA54379A}.Netduino Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A9AB38-24A8-4555-BAF1-E9ECDA54379A}.Netduino Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A9AB38-24A8-4555-BAF1-E9ECDA54379A}.Netduino Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C2A9AB38-24A8-4555-BAF1-E9ECDA54379A}.Netduino Debug|x86.ActiveCfg = Debug|Any CPU
+		{C2A9AB38-24A8-4555-BAF1-E9ECDA54379A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A9AB38-24A8-4555-BAF1-E9ECDA54379A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2A9AB38-24A8-4555-BAF1-E9ECDA54379A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C2A9AB38-24A8-4555-BAF1-E9ECDA54379A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C2A9AB38-24A8-4555-BAF1-E9ECDA54379A}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
