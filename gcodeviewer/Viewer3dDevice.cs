@@ -9,7 +9,7 @@ namespace gcodeparser
     public class Viewer3dDevice : ViewerDevice
     {
         private Viewer3d mViewControl;
-        private GlPen GlCutPen = new GlPen(new ColorRgb(0f, 0.6f, 0f), 3f);
+        private GlPen GlCutPen = new GlPen(new ColorRgb(0f, 0.9f, 0f), 3f);
         private GlPen GlCutPendingPen = new GlPen(new ColorRgb(1f, 0f, 0f), 3f);
         private GlPen GlMovePen = new GlPen(new ColorRgb(0.7f, 0.7f, 0.7f), 1f);
         private GlPen GlGridPen = new GlPen(new ColorRgb(0.5f, 0.5f, 0.5f), 1f);
