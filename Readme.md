@@ -1,26 +1,26 @@
 Netduino-GCode
 ==============
 
-A GCode parser written in C# for the netduino platform. G-code (http://en.wikipedia.org/wiki/G-code) is a standard language used in automation (CNC, numerical control) to instruct machines the movements they need to perform in other to build a shape. 
+A GCode parser written in C# for the netduino platform. G-code (http://en.wikipedia.org/wiki/G-code) is a standard language used in automation (CNC, numerical control) to instruct machines the movements they need to perform in other to build a shape designed in a CAD program. That CAD model is then converted to GCode by some CAM software and that GCode is parsed by this software to generate machine movements.
 
-== Components == 
+## Components
 
 The software is divided in several components: 
 
-* The netduino application: this is the GCode parser that runs in the netduino and translates GCode to pulses suitable for stepper motor drivers. Currently it receives the GCode through the network connection of the netduino plus (through a listening server).
-* A viewer application on the PC side feeds the GCode file to the netduino and visualizes progress of the operation. This is viewer in 3D of toolpaths in the gcode file. It was used to debug the parser and visualize the GCode paths while in development. Here is a screenshot: 
+* The netduino application: this is the GCode parser that runs in the netduino and translates GCode to pulses suitable for stepper motor drivers. Currently it receives the GCode through the network connection of the netduino plus (through a socket listening server).
+* A viewer application on the PC side feeds the GCode file to the netduino and visualizes progress of the operation. This is a 3D viewer of the GCode toolpaths in the file. It was used to debug the parser and visualize the GCode paths while in development. Here is a screenshot: 
 
 ![Screenshot of the viewer in action](/screenshots/09%203D%20support.png)
 
-It is also possible to connect to the netduino directly via telnet and paste the gcode over that connection. 
+It is also possible to connect to the netduino directly via telnet and paste the gcode over that connection. By default, it is listening on port 82.
 
-== Building == 
+## Building
 
 The project is a VS2010 express solution, that requires the netduino SDK to be present. 
 
 There are several build configurations available. They build the netduino application or the PC software. Both applications share the same gcode parser code so that the viewer draws what the netduino will do (at least what refers to GCode, mechanically that's a different story).
 
-== Configuring == 
+## Configuring
 
 Output pins and other parameters of the device are configured in the StepperBasic/CncDevice.cs class. Changing those parameters requires recompiling and redeploying for now. 
 
